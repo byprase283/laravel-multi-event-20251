@@ -44,6 +44,11 @@ Aplikasi ini menggunakan SQLite sebagai default. Anda perlu membuat file databas
 ```bash
 type nul > database/database.sqlite
 ```
+
+```bash
+php artisan storage:link
+```
+
 ```bash
 php artisan migrate
 ```
